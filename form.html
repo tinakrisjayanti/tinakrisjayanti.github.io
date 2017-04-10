@@ -1,0 +1,149 @@
+<html> 
+<head> 
+<title>Formulir Biodata Mahasiswa</title>
+</head>
+
+<style>
+	body{
+			background-color: powderblue;
+            background-image: url(https://68.media.tumblr.com/d7c939315f03970f69daba4eb9c0fdb2/tumblr_obfxt6xTXR1vxme40o1_500.gif);
+			}
+		h1{
+			text-align: center;
+			font-family: Broadway;
+		}
+		p{
+			text-align: center;
+			font-family: sans-serif;
+			}
+		.center{
+			text-align: center;
+		}
+	
+	form{
+			font-family: arial;
+			}
+	table {
+   		 font-family: comic sans, cursive;
+   		 border-collapse: collapse;
+   		 width: 100%;
+		}
+	td{
+    		 text-align: left;
+    		 padding: 8px;
+		}
+
+	tr:nth-child(even) {
+    	background-color: lightblue;
+		}
+	footer{
+			position:relative;
+			width:100%;
+			text-align:left;
+			color:black;
+			}
+</style>
+
+
+<body>
+<form method="post"> 
+<table> <tr>  
+
+<td> Nama Mahasiswa </td>  
+<td> : </td>    
+<td colspan="7"> 
+<input type="text" name="nama" size="54" placeholder="Nama"/></td> </tr> <tr>     
+<td> NIM </td>  
+<td> : </td> 
+<td colspan="7">
+<input type="text" name="nim" placeholder="NIM"/></td> </tr> <tr> 
+<td> Tempat Lahir </td> 
+<td> : </td> 
+<td colspan="7"> 
+<input type="text" name="tempat" placeholder="Tempat Lahir"/></td> </tr> <tr> 
+<td> Umur </td>  
+<td> : </td> 
+<td colspan="7">
+<input type="text" name="umur" placeholder="Umur"/></td> </tr> <tr> 
+<td> Tanggal Lahir </td> 
+<td> : </td> 
+<td><select name="bulan">  
+<option value="1" selected="selected"> 1 </option>     
+<option value="2" > 2 </option> 
+<option value="3" > 3 </option>      
+<option value="4" > 4 </option>   
+<option value="5" > 5 </option>    
+<option value="6" > 6 </option>   
+<option value="7" > 7 </option>  
+<option value="8" > 8 </option> 
+<option value="9" > 9 </option>    
+<option value="10" > 10 </option>        
+<option value="11" > 11 </option>
+<option value="12" > 12 </option> 
+<option value="13" > 13 </option>      
+<option value="14" > 14 </option>   
+<option value="15" > 15 </option>    
+<option value="16" > 16 </option>   
+<option value="17" > 17 </option>  
+<option value="18" > 18 </option> 
+<option value="19" > 19 </option>    
+<option value="20" > 20 </option>        
+<option value="21" > 21 </option>
+<option value="22" > 22 </option> 
+<option value="23" > 23 </option>      
+<option value="24" > 24 </option>   
+<option value="25" > 25 </option>    
+<option value="26" > 26 </option>   
+<option value="27" > 27 </option>  
+<option value="28" > 28 </option> 
+<option value="29" > 29 </option>    
+<option value="30" > 30 </option>        
+<option value="31" > 31 </option></select></td>    
+<td> Bulan </td>  
+<td> : </td>  
+<td><select name="bulan">  
+<option value="1" selected="selected"> Januari </option>     
+<option value="2" > Februari </option> 
+<option value="3" > Maret </option>      
+<option value="4" > April </option>   
+<option value="5" > Mei </option>    
+<option value="6" > Juni </option>   
+<option value="7" > Juli </option>  
+<option value="8" > Agustus </option> 
+<option value="9" > September </option>    
+<option value="10" > Oktober </option>        
+<option value="11" > November </option>   
+<option value="12" > Desember </option></select></td>  
+<td> Tahun </td>  
+<td> : </td> 
+<td> <input type="text" name="tahun" size="10" placeholder="Tahun"/> </td>    
+</tr> <tr>
+<td> Jenis Kelamin </td>  
+<td> : </td>
+<td colspan="7"> 
+<select name="kelamin">      
+<option value="1" selected="selected"> - </option>                     <option value="2"> Laki-Laki </option>                     <option value="3"> Perempuan </option></select></td> 
+</tr> <tr>   
+<td> Alamat </td>  
+<td> : </td> 
+<td colspan="7"><textarea name="alamat" placeholder="Alamat" cols="41" rows="7"></textarea></td> </tr> <tr>   
+<td> Hobi </td>  
+<td> : </td> 
+<td colspan="7">
+<input type="text" name="hobi" placeholder="Hobi"/></td> </tr> <tr> 
+<td> Organisasi </td>  
+<td> : </td> 
+<td colspan="7">
+<input type="text" name="organisasi" placeholder="Organisasi yang diikuti"/></td> </tr> <tr> 
+<td> Motto </td>  
+<td> : </td> 
+<td colspan="7">
+<input type="text" name="motto" placeholder="Motto Hidup"/></td> </tr> <tr> 
+<td colspan="9" align="right">
+<input type="submit" name="submit" value="Simpan" /><input type="reset" name="reset" value="Batal" /></td> </tr> 
+</table>
+	
+<footer> Copyright &copy; Universitas Negeri Yogyakarta 2016 </footer>
+</body>
+
+</html>
